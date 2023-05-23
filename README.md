@@ -3,8 +3,23 @@
 This site have the following 6 components:
 
 1. Navigation Bar
-2. Background image with Text section
-3. About US section
-4. Awards section
-5. Contact
-6. Footer
+
+![image](https://github.com/ankita459/Inventrom-Website-using-HTML-CSS-and-JavaScript/assets/92936521/61ae35b5-4263-4aa0-9f26-390bbddb3486)
+
+3. Background image with Text section
+4. About US section
+
+![image](https://github.com/ankita459/Inventrom-Website-using-HTML-CSS-and-JavaScript/assets/92936521/6a1b8ec2-120e-4496-a5c2-292ef4e52283)
+
+6. Awards section
+
+![image](https://github.com/ankita459/Inventrom-Website-using-HTML-CSS-and-JavaScript/assets/92936521/8482e578-ceb4-4246-9b0a-0703e1fc0715)
+
+8. Contact
+
+![image](https://github.com/ankita459/Inventrom-Website-using-HTML-CSS-and-JavaScript/assets/92936521/1b7c67b7-2068-46df-8ae5-ab40f81dc13a)
+
+10. Footer
+
+![image](https://github.com/ankita459/Inventrom-Website-using-HTML-CSS-and-JavaScript/assets/92936521/c7578ba8-6ef9-44d6-b287-28ff519bbb92)
+
