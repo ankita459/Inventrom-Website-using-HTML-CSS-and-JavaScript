@@ -24,7 +24,7 @@ This site have the following 6 components:
 ![image](https://github.com/ankita459/Inventrom-Website-using-HTML-CSS-and-JavaScript/assets/92936521/c7578ba8-6ef9-44d6-b287-28ff519bbb92)
 
 # Design color schemes:
-Navigation menu text color: #0a0a0a
-Section main text color: #139139
-Footer background color: #139139
-Other text: #000000
+* Navigation menu text color: #0a0a0a
+* Section main text color: #139139
+* Footer background color: #139139
+* Other text: #000000
