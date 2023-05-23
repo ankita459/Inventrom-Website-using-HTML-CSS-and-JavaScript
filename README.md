@@ -17,7 +17,7 @@ This site have the following 6 components:
 
 8. Contact
 
-![image](https://github.com/ankita459/Inventrom-Website-using-HTML-CSS-and-JavaScript/assets/92936521/1b7c67b7-2068-46df-8ae5-ab40f81dc13a)
+![image](https://github.com/ankita459/Inventrom-Website-using-HTML-CSS-and-JavaScript/assets/92936521/332456a3-ac0f-4cd9-84b0-4f7013fa4094)
 
 10. Footer
 
