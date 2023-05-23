@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inventrom</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    /* Navigation Bar */
+    .navbar {
+      background-color: #ffffff;
+    }
+    .navbar-brand {
+      color: #0a0a0a;
+      font-weight: bold;
+    }
+    .navbar-nav .nav-link {
+      color: #0a0a0a;
+    }
+    /* Background image with Text section */
+    .background-section {
+      background-image: url('background-layer.png');
+      background-size: cover;
+      background-position: center;
+      min-height: 500px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: #ffffff;
+    }
+    /* About Us section */
+    .about-section {
+      background-color: #f2f2f2;
+      padding: 50px 0;
+      color: #139139;
+    }
+    /* Awards section */
+    .awards-section {
+      background-color: #ffffff;
+      padding: 50px 0;
+      color: #139139;
+    }
+    .awards-section img {
+      width: 150px;
+      height: 150px;
+    }
+    /* Get in touch section */
+    .get-in-touch-section {
+      background-color: #f2f2f2;
+      padding: 50px 0;
+      color: #139139;
+    }
+    /* Footer */
+    .footer {
+      background-color: #139139;
+      color: #ffffff;
+      padding: 20px 0;
+    }
+    .footer a {
+      color: #ffffff;
+    }
+    /* Get in touch section styles */
+.contact-section {
+  padding: 80px 0;
+  background-color: #f8f8f8;
+}
+
+.section-title {
+  color: #139139;
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.form-group label {
+  color: #0a0a0a;
+  font-size: 16px;
+}
+
+.form-control {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.btn-submit {
+  background-color: #139139;
+  border: none;
+}
+
+.contact-info h4 {
+  margin-top: 40px;
+  color: #139139;
+}
+
+.contact-info p {
+  margin-bottom: 10px;
+}
+
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img src="logo.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="#awards">Awards</a>
+          </li>&nbsp;&nbsp;&nbsp;
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Background image with Text section -->
+  <section class="background-section">
+    <div class="container">
+      <h1>Welcome to Inventrom</h1><br>
+      <p>Explore the world of innovation</p>
+    </div>
+  </section>
+
+  <!-- About Us section -->
+<section id="about" class="about-section text-center">
+    <div class="container">
+      <h2>About Us</h2><br>
+      <p>Here you can provide some details about Inventrom and its platform.</p><br>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="card">
+            <img src="about_us_vision.png" class="card-img-top" alt="Image 1">
+            <div class="card-body">
+              <h5 class="card-title">Our Vision</h5>
+              <p class="card-text">Our vision is to empower individuals and organizations with cutting-edge technologies that drive positive change and create a sustainable future.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card">
+            <img src="abous_us_mission.png" class="card-img-top" alt="Image 2">
+            <div class="card-body">
+              <h5 class="card-title">Our Mission</h5>
+              <p class="card-text">Our mission is to deliver innovative and user-centric solutions that simplify complex problems, enhance productivity, and foster growth and success for our clients worldwide.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Awards section -->
+<section id="awards" class="awards-section text-center">
+    <div class="container">
+      <h2>Awards</h2><br>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="award1.png" class="card-img-top" alt="Award 1">
+              <h5 class="card-title">SHOWCASE</h5>
+              <p class="card-text">KONNECT PROGRAM
+                </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="award2.png" class="card-img-top" alt="Award 2">
+              <h5 class="card-title">WINNER</h5>
+              <p class="card-text"> GROWTH PROGRAM</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="award3.png" class="card-img-top" alt="Award 3">
+              <h5 class="card-title">WINNER</h5>
+              <p class="card-text">POWER OF IDEAS</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="award4.png" class="card-img-top" alt="Award 4">
+              <h5 class="card-title">WINNER</h5>
+              <p class="card-text">CHIEF MINISTER AWARD </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  
+  
+  <!-- Get in touch section -->
+<section id="contact" class="contact-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="text-center">
+            <h2 class="section-title"> Get in Touch</h2>
+          </div>
+          <form>
+            <div class="form-group">
+              <label for="firstName">First Name*</label>
+              <input type="text" class="form-control" id="firstName" required>
+            </div>
+            <!-- Rest of the form fields -->
+            <div class="form-group">
+                <label for="lastName">Last Name*</label>
+                <input type="text" class="form-control" id="lastName" required>
+              </div>
+              <div class="form-group">
+                <label for="state">State/Region</label>
+                <input type="text" class="form-control" id="state">
+              </div>
+              <div class="form-group">
+                <label for="country">Country*</label>
+                <input type="text" class="form-control" id="country" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Email*</label>
+                <input type="email" class="form-control" id="email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" class="form-control" id="phone">
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" rows="5"></textarea>
+              </div>
+              <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="unsubscribe">
+                <label class="form-check-label" for="unsubscribe">I want to unsubscribe from communications</label>
+              </div><br>
+            <button type="submit" class="btn btn-primary btn-submit">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-6 contact-info">
+          <h4>Registered Address</h4><br>
+          <p>Inventrom Private Limited, GURUPUSHPA, Plot No 14, Bamon Bhat, Post St Cruz, Merces, North Goa, 403005, India</p>
+          <h4>Contact Us</h4><br>
+          <p><i class="fas fa-map-marker-alt"></i>&nbsp;&nbsp;&nbsp;79, 11th Cross Road, Binnamangala Indiranagar, Bengaluru, India</p><br>
+          <p><i class="fas fa-phone"></i>&nbsp;&nbsp;&nbsp;(+91) 8881197198</p><br>
+          <p><i class="fas fa-envelope"></i>&nbsp;&nbsp;&nbsp;support@boltiot.com</p><br>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Footer -->
+<footer class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <p>&copy; 2023 Inventrom. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-right">
+          <!-- Add your social icons here -->
+          <a href="https://www.facebook.com/yourpage" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+          <a href="https://twitter.com/yourprofile" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+          <a href="https://www.instagram.com/yourprofile" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram fa-lg"></i></a>&nbsp;&nbsp;&nbsp;
+        </div>
+      </div>
+    </div>
+  </footer>  
+  
+  
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
